@@ -1,14 +1,39 @@
 <template>
   <Layout>
-    <h1>About us</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error doloremque omnis animi, eligendi magni a voluptatum, vitae, consequuntur rerum illum odit fugit assumenda rem dolores inventore iste reprehenderit maxime! Iusto.</p>
+    <RichText :html="$page.allPageItem.edges[0].node.content"></RichText>
   </Layout>
 </template>
 
 <script>
+import RichText from '../components/RichText';
+
 export default {
   metaInfo: {
-    title: 'About us'
+    title: 'Hello, world!'
+  },
+  components: {
+    RichText
   }
 }
 </script>
+
+<style>
+.home-links a {
+  margin-right: 1rem;
+}
+</style>
+
+<page-query>
+query IndexQuery {
+  allPageItem(filter: { codename: { eq: "about" } }) {
+    edges {
+      node {
+        title
+        content
+        slug
+      }
+    }
+  }
+}
+
+</page-query>

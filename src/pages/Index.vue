@@ -1,27 +1,18 @@
 <template>
   <Layout>
-
-    <!-- Learn how to use images here: https://gridsome.org/docs/images -->
-    <g-image alt="Example image" src="~/favicon.png" width="135" />
-
-    <h1>Hello, world!</h1>
-
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur excepturi labore tempore expedita, et iste tenetur suscipit explicabo! Dolores, aperiam non officia eos quod asperiores
-    </p>
-
-    <p class="home-links">
-      <a href="https://gridsome.org/docs/" target="_blank" rel="noopener">Gridsome Docs</a>
-      <a href="https://github.com/gridsome/gridsome" target="_blank" rel="noopener">GitHub</a>
-    </p>
-
+    <RichText :html="$page.allPageItem.edges[0].node.content"></RichText>
   </Layout>
 </template>
 
 <script>
+import RichText from '../components/RichText';
+
 export default {
   metaInfo: {
     title: 'Hello, world!'
+  },
+  components: {
+    RichText
   }
 }
 </script>
@@ -31,3 +22,18 @@ export default {
   margin-right: 1rem;
 }
 </style>
+
+<page-query>
+query IndexQuery {
+  allPageItem(filter: { codename: { eq: "home" } }) {
+    edges {
+      node {
+        title
+        content
+        slug
+      }
+    }
+  }
+}
+
+</page-query>

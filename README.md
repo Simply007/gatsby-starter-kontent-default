@@ -1,10 +1,10 @@
 # Gridsome Starter Kontent Lumen
 
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/Simply007/kontent-starter-gridsome-default/master/LICENSE)
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/Simply007/gridsome-starter-default-kontent/master/LICENSE)
 [![Stack Overflow](https://img.shields.io/badge/Stack%20Overflow-ASK%20NOW-FE7A16.svg?logo=stackoverflow&logoColor=white)](https://stackoverflow.com/tags/kentico-cloud)
-[![Live demo](https://img.shields.io/badge/-Live%20Demo-brightgreen.svg)](https://kontent-starter-gridsome-default.netlify.app/)
+[![Live demo](https://img.shields.io/badge/-Live%20Demo-brightgreen.svg)](https://gridsome-starter-default-kontent.netlify.app/)
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/f547d859-c6df-43fb-a936-97f7744cb2aa/deploy-status)](https://app.netlify.com/sites/kontent-starter-gridsome-default/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/f547d859-c6df-43fb-a936-97f7744cb2aa/deploy-status)](https://app.netlify.com/sites/gridsome-starter-default-kontent/deploys)
 
 Bare-bones starter for [Gridsome](https://github.com/gridsome/gridsome). Basically clone of the [Default starter for Gridsome](https://github.com/gridsome/gridsome-starter-default) utilizing [Kentico Kontent](https://kontent.ai) as a data source vie [Gridsome source plugin for Kontent](https://gridsome.org/plugins/@meeg/gridsome-source-kentico-kontent).
 
@@ -70,6 +70,6 @@ npm run build
 
 Netlify can run in any frontend web environment, but the quickest way to try it out is by running it on a pre-configured starter site with Netlify. Use the button below to build and deploy your own copy of the repository:
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/Simply007/kontent-starter-gridsome-default)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/Simply007/gridsome-starter-default-kontent)
 
 After clicking that button, you’ll authenticate with GitHub and choose a repository name. Netlify will then automatically create a repository in your GitHub account with a copy of the files from the template. Next, it will build and deploy the new site on Netlify, bringing you to the site dashboard when the build is complete. Next, you’ll need to set up Netlify’s Identity service to authorize users to log in to the CMS.

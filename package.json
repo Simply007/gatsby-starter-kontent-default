@@ -1,5 +1,5 @@
 {
-  "name": "gatsby-starter-kontent-default",
+  "name": "gridsome-starter-default-kontent",
   "scripts": {
     "develop": "gridsome develop",
     "explore": "gridsome explore",

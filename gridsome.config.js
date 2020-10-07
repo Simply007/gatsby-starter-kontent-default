@@ -6,7 +6,7 @@
 
 module.exports = {
   runtimeCompiler: true,
-  siteName: 'Kontent Starter Gridsome Default',
+  siteName: 'Gridsome Starter Default with Kontent',
   plugins: [
     {
       use: '@meeg/gridsome-source-kentico-kontent',

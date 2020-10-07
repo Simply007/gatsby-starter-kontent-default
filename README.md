@@ -6,7 +6,7 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/f547d859-c6df-43fb-a936-97f7744cb2aa/deploy-status)](https://app.netlify.com/sites/gridsome-starter-default-kontent/deploys)
 
-Bare-bones starter for [Gridsome](https://github.com/gridsome/gridsome). Basically clone of the [Default starter for Gridsome](https://github.com/gridsome/gridsome-starter-default) utilizing [Kentico Kontent](https://kontent.ai) as a data source vie [Gridsome source plugin for Kontent](https://gridsome.org/plugins/@meeg/gridsome-source-kentico-kontent).
+Bare-bones starter for [Gridsome](https://github.com/gridsome/gridsome). Basically clone of the [Default starter for Gridsome](https://github.com/gridsome/gridsome-starter-default) utilizing [Kentico Kontent](https://kontent.ai) as a data source via [Gridsome source plugin for Kontent](https://gridsome.org/plugins/@meeg/gridsome-source-kentico-kontent).
 
 ![Page Screenshot](./screenshot.png)
 

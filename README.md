@@ -2,11 +2,11 @@
 
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/Simply007/kontent-starter-gridsome-default/master/LICENSE)
 [![Stack Overflow](https://img.shields.io/badge/Stack%20Overflow-ASK%20NOW-FE7A16.svg?logo=stackoverflow&logoColor=white)](https://stackoverflow.com/tags/kentico-cloud)
-[![Live demo](https://img.shields.io/badge/-Live%20Demo-brightgreen.svg)](TODO)
+[![Live demo](https://img.shields.io/badge/-Live%20Demo-brightgreen.svg)](https://kontent-starter-gridsome-default.netlify.app/)
 
-[![Netlify Status](TODO)](TODO)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/f547d859-c6df-43fb-a936-97f7744cb2aa/deploy-status)](https://app.netlify.com/sites/kontent-starter-gridsome-default/deploys)
 
-  Bare-bones starter for [Gridsome](https://github.com/gridsome/gridsome). Basically clone of the [Default starter for Gridsome](https://github.com/gridsome/gridsome-starter-default) utilizing [Kentico Kontent](https://kontent.ai) as a data source vie [Gridsome source plugin for Kontent](https://gridsome.org/plugins/@meeg/gridsome-source-kentico-kontent).
+Bare-bones starter for [Gridsome](https://github.com/gridsome/gridsome). Basically clone of the [Default starter for Gridsome](https://github.com/gridsome/gridsome-starter-default) utilizing [Kentico Kontent](https://kontent.ai) as a data source vie [Gridsome source plugin for Kontent](https://gridsome.org/plugins/@meeg/gridsome-source-kentico-kontent).
 
 ![Page Screenshot](./screenshot.png)
 

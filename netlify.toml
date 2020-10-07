@@ -1,5 +1,5 @@
 [build]
   publish = "dist"
   command = "npm run build"
-[context.production]
-  environment ={  KENTICO_KONTENT_PROJECT_ID = "c75c3683-e68c-0035-e739-4db207dad49d" }
+[build.environment]
+KENTICO_KONTENT_PROJECT_ID = "c75c3683-e68c-0035-e739-4db207dad49d"

@@ -1,4 +1,4 @@
-# Gridsome Starter Kontent Lumen
+# Gridsome Starter Default with Kontent
 
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/Simply007/gridsome-starter-default-kontent/master/LICENSE)
 [![Stack Overflow](https://img.shields.io/badge/Stack%20Overflow-ASK%20NOW-FE7A16.svg?logo=stackoverflow&logoColor=white)](https://stackoverflow.com/tags/kentico-cloud)
